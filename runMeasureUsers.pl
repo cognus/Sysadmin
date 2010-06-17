@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use warnings;
-
+#This script works fine with 2 users inside the file "users". With more users take care!!!
 open(USERS, "/usr/local/scripts/perl/users") or die "Can not open the file \"users\"!!! $!";
 
 while(my $user = <USERS>){
